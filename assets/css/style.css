@@ -11,6 +11,15 @@
 --------------------------------------------------------------*/
 :root {
   scroll-behavior: smooth;
+  /* custom variables */
+  --theme: #1A3A67;
+  --white: #fff;
+}
+
+
+
+.bg-theme{
+  background: var(--theme) ;
 }
 
 body {
@@ -1230,4 +1239,16 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+
+.nav-tabs .nav-link.active{
+  background: var(--theme) ;
+  color: var(--white);
+  border-radius: 0;
+}
+
+.nav-tabs .nav-link{ 
+  color: var(--theme);
+  border-radius: 0;
 }
