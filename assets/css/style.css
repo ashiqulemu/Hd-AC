@@ -12,7 +12,8 @@
 :root {
   scroll-behavior: smooth;
   /* custom variables */
-  --theme: #1A3A67;
+  --theme: #1A3A66;
+  --secondary: #9BC653;
   --white: #fff;
 }
 
@@ -20,6 +21,14 @@
 
 .bg-theme{
   background: var(--theme) ;
+}
+
+.txt-secondary{
+  color: var(--secondary);
+}
+
+.txt-theme{
+  color: var(--theme);
 }
 
 body {
@@ -1252,3 +1261,5 @@ h6 {
   color: var(--theme);
   border-radius: 0;
 }
+
+@import"./customize.css";
