@@ -25,6 +25,7 @@
     top: 50px;
     background-color: var(--theme);
     padding: 130px 20px 20px 20px;
+    width: 250px;
  }
  .sidebar-nav .nav-link.collapsed {
     color: #ffffff;
@@ -39,4 +40,10 @@
 }
 .sidebar-nav .nav-link:hover i { 
     color: var(--secondary);
+}
+
+@media (min-width: 1200px){ 
+#main, #footer {
+    margin-left: 250px;
+}
 }

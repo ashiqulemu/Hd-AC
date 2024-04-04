@@ -23,6 +23,10 @@
   background: var(--theme) ;
 }
 
+.bg-theme-light{
+  background: var(--secondary) ;
+}
+
 .txt-secondary{
   color: var(--secondary);
 }
