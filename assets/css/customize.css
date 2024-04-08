@@ -17,6 +17,13 @@
     border-radius: 4px;
  }
 
+ .mh250{
+   max-height: 250px;
+   min-height: 250px;
+   overflow-y: auto;
+   overflow-x: hidden;
+ }
+
  .menuBar{
     background-color: var(--secondary); 
  }
@@ -50,4 +57,14 @@
 #main, #footer {
     margin-left: 250px;
 }
+}
+
+.form-control{
+   border: 1px solid var(--theme);
+   background: transparent;
+}
+
+.form-control:focus{
+   box-shadow: none;
+   border: 1px solid var(--theme);
 }

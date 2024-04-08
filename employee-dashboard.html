@@ -279,59 +279,154 @@
     </div>
 
     <div class="menuBar p-1 ps-4">
-      <i class="bi bi-list toggle-sidebar-btn curp text-black fs-4 opacity-0" onclick="toggleSidebar();"></i>
+      <i class="bi bi-list toggle-sidebar-btn curp text-black fs-4" onclick="toggleSidebar();"></i>
 
     </div>
   </header>
 
 
+  <!-- ======= Sidebar ======= -->
 
-  <main id="main" class="main mt-3 ms-0 ">
+  <aside id="sidebar" class="sidebar">
 
-    <section class="section dashboard ">
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="">
+          <i class="bi bi-person"></i>
+          <span>Client List</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="">
+          <i class="bi bi-question-circle"></i>
+          <span>Task List</span>
+        </a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="">
+          <i class="bi bi-envelope"></i>
+          <span>Live Chat</span>
+        </a>
+      </li>
+
+
+
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main mt-3">
+
+
+
+    <section class="section dashboard">
+
       <div class="row">
 
-        <!-- Left side columns -->
-        <div class="col-lg-12">
-          <div class="row">
-
-            <div class="col-lg-6 mx-auto ">
-              <div class="report-box border-theme sales-card p-4 rounded-4 mt-5">
-                <div class="card-body ">
-                  <div class="text-center mb-4 text-uppercase txt-theme fs-1 fw-bold">
-                    Staff Login
+        <div class="col-lg-4 mb-3">
+          <div class="report-box border-theme sales-card p-4 rounded-4  border-3 h-100">
+            <div class="card-body p-0">
+              <div class="p-2 bg-theme-light border-theme border-2 text-center fs-4 txt-theme rounded-4 fw-bold">
+                Your Time
+              </div>
+              <div class="d-flex gap-3 my-5">
+                <div class="text-center flex-fill">
+                  <div class="fs-6 txt-theme fw-bold">Active Time</div>
+                  <div class=" text-center fs-2 txt-theme   fw-bold">
+                    03:10:29
                   </div>
-                  <div class="row w-75 mx-auto">
 
-                    <div class="col-lg-12 d-flex align-items-center justify-content-around mb-3">
-                      <div class="col-lg-3"><label for="">Username:</label></div>
-                      <div class="col-lg-9"><input type="text" class="form-control" style="background-color: #D9D9D9;">
-                      </div>
-                    </div>
-
-                    <div class="col-lg-12 d-flex align-items-center justify-content-around">
-                      <div class="col-lg-3"><label for="">Password:</label></div>
-                      <div class="col-lg-9"><input type="password" class="form-control"
-                          style="background-color: #D9D9D9;">
-                      </div>
-                    </div>
-
-
-                    <small class="text-end mt-2  ">
-                      <a href="" class=" txt-theme me-2">Forgot Password?</a>
-                    </small>
-                    <div class=" row mt-3">
-                      <div class="col-md-12 text-center">
-                        <button class="btn fw-bold btn-sm py-1 fs-5 px-3 bg-theme text-light btn-outline-dark px-3 mx-2"
-                          fdprocessedid="04iav9">Login</button>
-                      </div>
-                    </div>
-
+                </div>
+                <div class="text-center border-start border-3 ps-3 flex-fill">
+                  <div class="fs-6 txt-theme fw-bold">Break Time</div>
+                  <div class=" text-center fs-2 txt-theme fw-bold">
+                    03:10:29
                   </div>
 
                 </div>
               </div>
+              <div class="row mt-3">
+                <div class="col-lg-6">
+                  <a href=""
+                    class="p-2 border-theme  text-center fs-6 d-block rounded-3 border-3 txt-theme fw-bold my-1">Clock
+                    in</a>
+                </div>
+                <div class="col-lg-6">
+                  <a href=""
+                    class="p-2 border-theme  text-center fs-6 d-block rounded-3 border-3 txt-theme fw-bold my-1">Take
+                    Break</a>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-lg-12">
+                  <a href=""
+                    class="p-2 border-theme bg-theme   text-center fs-6 d-block rounded-3 border-3 text-light fw-bold">Clock
+                    out</a>
+                </div>
+
+              </div>
             </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 mb-3">
+          <div class="report-box border-theme sales-card p-4 rounded-4  border-3 h-100 position-relative">
+            <div class="card-body px-0">
+              <div class="p-2 bg-theme-light border-theme border-2 text-center fs-4 txt-theme rounded-4 fw-bold">
+                What's Happening at HD Accountancy
+              </div>
+              <div class="position-absolute bottom-0 mb-4" style="width:90%;">
+                <div class=" d-flex align-items-center gap-3 w-full">
+                  <i class="bi bi-person-circle fs-3 txt-theme"></i>
+                  <input type="text" class="rounded-3 border-2 border-theme form-control"
+                    placeholder="Leave a comment ">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="row">
+        <div class="col-lg-4 mb-3">
+          <div class="report-box border-theme sales-card p-4 rounded-4  border-3 h-100 position-relative">
+            <div class="card-body px-0">
+              <div class="p-2 bg-theme-light border-theme border-2 text-center fs-4 txt-theme rounded-4 fw-bold">
+                Your Notes
+              </div>
+              <div class="mh250">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 mb-3">
+          <div class="report-box border-theme sales-card p-4 rounded-4  border-3 h-100 position-relative">
+            <div class="card-body px-0">
+              <div class="p-2 bg-theme-light border-theme border-2 text-center fs-4 txt-theme rounded-4 fw-bold">
+                Your Assign Task
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
@@ -339,7 +434,7 @@
 
   <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+  <a href=" #" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- JS Files -->
