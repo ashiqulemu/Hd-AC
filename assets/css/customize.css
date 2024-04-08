@@ -79,3 +79,20 @@ input[type=checkbox] {
  body{
    overflow-x: hidden;
  }
+
+ .sidebar-nav .nav-content a{
+   color:#fff;
+
+ }
+
+ .sidebar-nav .nav-link{
+   color:#fff;
+ }
+
+ .sidebar-nav .nav-link i{
+   color:#fff;
+ }
+
+ .sidebar-nav .nav-content a:hover{
+   color: var(--secondary) !important;
+ }
