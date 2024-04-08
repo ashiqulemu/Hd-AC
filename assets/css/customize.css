@@ -72,3 +72,10 @@
 #myTabjustified .nav-link {
    border-right: 1px solid var(--theme)!important;
 }
+
+input[type=checkbox] {
+   accent-color: var(--theme);
+ }
+ body{
+   overflow-x: hidden;
+ }
