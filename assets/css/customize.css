@@ -68,3 +68,7 @@
    box-shadow: none;
    border: 1px solid var(--theme);
 }
+
+#myTabjustified .nav-link {
+   border-right: 1px solid var(--theme)!important;
+}
