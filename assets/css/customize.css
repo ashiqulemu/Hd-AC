@@ -6,6 +6,10 @@
     z-index: 997;
  }
 
+ .border-theme{
+   border: 2px solid var(--theme);
+ }
+
  .report-box{
     margin-bottom:  20px;
     border: 1px solid var(--theme);
