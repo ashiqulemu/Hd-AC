@@ -24,6 +24,17 @@
    overflow-x: hidden;
  }
 
+ .sub-box-header{
+   background-color: aliceblue; 
+   border-top: 1px solid var(--theme);
+   border-bottom: 1px solid var(--theme);
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   padding: 5px 21px;
+   font-weight: bold;
+ }
+
  .menuBar{
     background-color: var(--secondary); 
  }
